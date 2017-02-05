@@ -1,0 +1,72 @@
+
+.control {
+  a {
+    text-decoration: none;
+    color: inherit;
+
+
+    &:hover div > span {
+      background-position: left;
+
+      &.arrow i {
+        &:first-child {
+          transform: none;
+        }
+
+        &:last-child {
+          transform: translateX(100%);
+        }
+      }
+    }
+  }
+
+  div > span {
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-font-smoothing: antialiased;
+    background: linear-gradient(to left, #B08A43 50% ,#CA9E4D 50%);
+    font-size: 0.75em;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.13);
+    transition: all 200ms ease;
+    background: {
+      size: 200%;
+      position: right;
+    }
+
+    &.title {
+      width: 200px;
+      float: left;
+      padding: 0 10px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+    }
+
+    &.arrow {
+      width: 36px;
+      position: relative;
+      overflow: hidden;
+      float: right;
+
+      i {
+        font-size: 2.7em;
+        position: absolute;
+        transition: transform 325ms ease;
+
+        &:first-child {
+          transform: translate(-100%);
+        }
+      }
+    }
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

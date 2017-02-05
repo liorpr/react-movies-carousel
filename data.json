@@ -1,0 +1,63 @@
+{
+  "1" : {
+    "order"         : 1 ,
+    "full_name"     : "WHY HIM?",
+    "release_date"  : "2017-01-02",
+    "urls"          : {
+      "trailer"       : "https://google.com",
+      "tickets"       : "https://google.com",
+      "site"          : "https://google.com",
+      "img"           : "http://s3.foxmovies.com/foxmovies/production/films/128/images/feature/home-page-feature-image-front-main-stage-1.jpg"
+    }
+  },
+  "2"   : {
+    "order"         : 2,
+    "full_name"     : "Assassin's Creed",
+    "release_date"  : "2017-01-02",
+    "urls"          : {
+      "trailer"       : "https://google.com",
+      "tickets"       : "https://google.com",
+      "site"          : "https://google.com",
+      "img"           : "http://s3.foxmovies.com/foxmovies/production/films/111/images/feature/home-page-feature-image-front-main-stage-2.jpg"
+    }
+  },
+  "3"   : {
+    "order"         : 3,
+    "full_name"     : "Hidden Figures",
+    "release_date"  : "2017-04-07",
+    "urls"          : {
+      "trailer"       : "https://google.com",
+      "site"          : "https://google.com",
+      "img"           : "http://s3.foxmovies.com/foxmovies/production/films/123/images/feature/home-page-feature-image-front-main-stage-1.jpg"
+    }
+  },
+  "4"   : {
+    "order"         : 4,
+    "full_name"     : "A Cure for Wellness",
+    "release_date"  : "2017-05-22",
+    "urls"          : {
+      "trailer"       : "https://google.com",
+      "img"           : "http://s3.foxmovies.com/foxmovies/production/films/131/images/feature/home-page-feature-image-front-main-stage-1.jpg"
+    }
+  },
+  "5"   : {
+    "order"         : 5,
+    "full_name"     : "Logan",
+    "release_date"  : "2019-01-01",
+    "urls"          : {
+      "trailer"       : "https://google.com",
+      "site"          : "https://google.com",
+      "img"           : "http://s3.foxmovies.com/foxmovies/production/films/132/images/feature/home-page-feature-image-front-main-stage-1.jpg"
+    }
+  },
+  "6"  : {
+    "order"         : 6,
+    "full_name"     : "War For the Planet of the Apes",
+    "release_date"  : "2017-07-14",
+    "urls"          : {
+      "trailer"       : "https://google.com",
+      "tickets"          : "https://google.com",
+      "img"           : "http://s3.foxmovies.com/foxmovies/production/films/113/images/feature/home-page-feature-image-front-main-stage-2.jpg"
+    }
+  }
+}
